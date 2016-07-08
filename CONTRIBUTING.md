@@ -33,8 +33,8 @@ Follow the following steps to add your name to this document. You'll need a GitH
 Direct commit access to the project is currently restricted to only a few individuals. All other contributions should be done through pull requests.
 
 ## Contacting the Team
-The best mechanism for contacting the team is to "open a ticket," which you may do by clicking [here](https://github.com/doecode/doecode/issues/new) if you have a GitHub account. Otherwise, please email the project lead, Jay Jay Billings, at billingsjj &lt;at> ornl DOT gov.
+The best mechanism for contacting the team is to "open a ticket."
 
 ## Contributors ##
-Jay Jay Billings, billingsjj &lt;at> ornl DOT gov, 20160708
-Lance Vowell, vowelll &lt;at> osti DOT gov
+-Jay Jay Billings, billingsjj &lt;at> ornl DOT gov, 20160708
+-Lance Vowell, vowelll &lt;at> osti DOT gov, 20160708
