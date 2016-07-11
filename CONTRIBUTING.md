@@ -36,5 +36,7 @@ Direct commit access to the project is currently restricted to only a few indivi
 The best mechanism for contacting the team is to "open a ticket."
 
 ## Contributors ##
--Jay Jay Billings, billingsjj &lt;at> ornl DOT gov, 20160708
--Lance Vowell, vowelll &lt;at> osti DOT gov, 20160708
+* Jay Jay Billings, billingsjj &lt;at> ornl DOT gov, 20160708
+* Lance Vowell, vowelll &lt;at> osti DOT gov, 20160708
+
+This project inherits is contributors from the main DOECode project such that in addition to those listed above, the contributors listed at [DOECode](https://github.com/doecode/doecode/blob/master/CONTRIBUTING.md) are contributors on this project too.
