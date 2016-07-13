@@ -2,122 +2,96 @@
 <html lang="en">
   <head>
     <title>DOE Code</title>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="U.S. Department of Energy Software Repository">
-    <meta name="author" content="DOE Office of Scientific and Technical Information">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-	<style>
-		body{
-		  font-family: Arial, Helvetica, sans-serif;
-                  background-color: #a4d3ee;
-		}
- 
-                #content {
-                  padding-top: 20px;
-                  background-color: white;
-                  border: 1px solid #a2a2a2;
-                  border-radius: 10px 10px 10px 10px;
-                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-                  position: relative;
-                  min-height: 800px;
-                }
-               
-		h2, .h2{
-		  font-size: 30px;
-		}
-
-		header{
-		  margin-bottom: 2em;
-		  background-color: #447744;
-		  color: #FFF;
-		  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-		  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-		  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);  
-		}
- 
-                header a {
-                  color: white;
-                }
-
-                header a:hover {
-                  color: white;
-                }
-
-                .banner-title {
-                  background-color: #447744;
-                  color: white;
-                  margin-bottom: 2em;
-                  padding-bottom: 1em;
-                }
-
-		.banner-img{
-		  max-width: 466px;
-		  max-height: 62px;  
-		}
-
-		.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-		  width: 100%;
-		}
-
-		h1 {
-		  margin: 0;
-		}
-
-		footer{
-		  text-align: center;
-		  margin-top: 3em;
-		}
-	</style>
+    <meta name="description" content="DOE Code">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
   </head>
   <body>
-    <header>
-      <div class="container"> 
-        <div class="row">
-          <a href="http://www.osti.gov">OSTI Home</a> 
-        </div>         
-      </div>
-    </header>
+    <div id="skiptocontent"><a href="#wrap">skip to main content</a></div>
     
-    <div class="container" id="content">
-      <div class="row banner-title">
-          <div class="col-md-6">     
-            <h1>DOE Code</h1>
-            <div>Energy Science and Technology Software Center</div>
+    <div id="header-nav" class="hidden-print">
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="margin-top:25px;">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li role="separator" class="divider visible-xs-block"></li>
+                  <li><a href="http://www.osti.gov/" title="DOE Office of Science and Technical Information Home" id="nav-ostihome" class="nav-button inline-button">OSTI Home</a></li>
+                  <li><a style="margin-left:0px;" class="nav-button inline-button on" id="nav-home" title="DOE Code Home" href="/">DOE Code Home</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a style="color:#fff;" class="nav-button inline-button" id="nav-doehome" title="DOE Home" href="http://energy.gov/">DOE Home &raquo;</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-5 col-md-offset-1 banner-img"><img class="img-responsive" alt="DOE Office of Scientific and Technical Information" usemap="#osti" src="/images/DOE_SC_OSTI_white62_1.png"></div>
-          <map id="osti" name="osti">
-            <area alt="U.S. Department of Energy" target="new" href="http://www.energy.gov" coords="11,3,182,55" shape="rect">
-            <area alt="Office of Science" target="new" href="http://www.science.energy.gov" coords="190,2,270,55" shape="rect">
-            <area alt="Office of Scientific and Technical Information" href="http://www.osti.gov" coords="280,3,455,55" shape="rect">
-          </map>
+        </nav>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>The Energy Science and Technology Software Center, DOECode, is the centralized
-             software management portal the U.S. Department of Energy (DOE). As a form of
-             scientific and technical information, software is a result of the Department's
-             research and development activities at the DOE national laboratories and other
-             DOE facilities/contractors. This portal provides access to software packages,
-             including source code, executable object code, and the minimum support documentation
-             (e.g., software user guide or manual) needed to use the software or to modify
-             the software to support subsequent development efforts.</p>
-          <p>DOECode is managed and operated by the DOE's Office of Scientific and Technical
-             Information (OSTI).</p>
+    </div>       
 
-          <address>
-            If you have any questions or feedback please contact us by email at <a mailto="estsc@osti.gov">estsc@osti.gov</a>
-          <address>
-	</div>
+    <!-- content -->
+    <div id="wrap">
+      <div class="container">
+        <div id="content">                    
+
+          <!-- top row -->          
+          <div class="row fp_content">
+          
+            <!-- logo box -->
+            <div class="col-md-12 padblock">
+              <h1 id="main-title">DOE Code</h1>
+              <h2 id="sub-title">Energy Science and Technology Software Center</h2> 
+            </div>
+       
+        </div>
+        <!-- /top row --> 
+        
+        <!-- mid row -->    
+        <div class="row">
+          <div class="col-xs-12 padblock">
+            <p>The Energy Science and Technology Software Center, DOECode, is the centralized software management portal
+             the U.S. Department of Energy (DOE). As a form of scientific and technical information, software is a result
+             of the Department's research and development activities at the DOE national laboratories and other DOE
+             facilities/contractors. This portal provides access to software packages, including source code, executable
+             object code, and the minimum support documentation (e.g., software user guide or manual) needed to use the
+             software or to modify the software to support subsequent development efforts.</p>
+
+            <p>DOECode is managed and operated by the DOE's Office of Scientific and Technical Information (OSTI).</p>
+            
+            <p>If you have any questions or feedback please contact us by email at <a href="mailto:estsc@osti.gov">estsc@osti.gov</a></p>
+          </div>
+        </div>
+        <!-- /mid row -->
+        
+        <!-- footer --> 
+        <div id="footer-wrapper">
+          <div class="footer-content">
+            <div id="footerOSTI" class="fp">
+
+            </div>
+          </div>
+        </div>
+        <!-- /footer --> 
+          
+        </div>
       </div>
     </div>
+    <!-- end content -->
 
-   <footer>
-    <div class="container">
-    </div>
-  </footer>  
+    <div class="push_top"></div>
+
+
+    <!-- scripts, load at the end for speed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
-
-
