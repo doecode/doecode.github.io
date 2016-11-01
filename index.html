@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="DOE Code">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">    
   </head>
   <body>
@@ -25,12 +26,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                  <li role="separator" class="divider visible-xs-block"></li>
-                  <li><a href="http://www.osti.gov/" title="DOE Office of Science and Technical Information Home" id="nav-ostihome" class="nav-button inline-button">OSTI Home</a></li>
-                  <li><a style="margin-left:0px;" class="nav-button inline-button on" id="nav-home" title="DOE Code Home" href="/">DOE Code Home</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a style="color:#fff;" class="nav-button inline-button" id="nav-doehome" title="DOE Home" href="http://energy.gov/">DOE Home &raquo;</a></li>
+                <li role="separator" class="divider visible-xs-block"></li>
+                <li><a href="http://www.osti.gov/" title="DOE Office of Science and Technical Information Home" id="nav-ostihome" class="nav-button inline-button">OSTI Home</a></li>
+                <li><a style="margin-left:0px;" class="nav-button inline-button on" id="nav-home" title="DOE Code Home" href="/">DOE Code Home</a></li>
               </ul>
             </div>
           </div>
@@ -48,7 +46,7 @@
           
             <!-- logo box -->
             <div id="main-logo" class="col-md-12 padblock">
-              <img src="images/DOEcode_logo.jpg" height="100" width="600"> 
+              <img class="img-responsive" src="images/DOEcode_logo.jpg" height="100" width="600"> 
             </div>
           
           </div>
@@ -57,47 +55,31 @@
         <!-- mid row -->    
         <div class="row">
           <div class="col-xs-12 padblock">
-            <p>The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is planning a new DOE software center.</p>
+            <p>The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is building a new DOE software center.</p>
 
-            <p>DOE Code is the reimagining of OSTI's current product for the submission of software, the Energy Science and Technology Software Center,
-             or <a href="http://www.osti.gov/moved/estsc/">ESTSC</a>.  DOE Code is currently under development.  If you need to submit, search, or order software, please visit the ESTSC site for instructions.</p>
+            <p><a href="https://github.com/doecode">DOE Code</a> is the reimagining of OSTI's current product for the submission of software, the Energy Science and Technology Software Center,
+             or <a href="http://www.osti.gov/moved/estsc/">ESTSC</a>.  Since DOE Code is still under development, if you need to submit, search, or order software, please visit the ESTSC site for instructions.</p>
             
             <p>DOE Code, when launched, will provide a best-in-class service for the submission of software. As a form of scientific and technical information,
              software is a result of the Department's research and development activities at the DOE national laboratories and other DOE facilities/contractors.</p>
              
-            <p>The DOE Code repository, currently hosted temporarily on GitHub, will provide an open source, <a href="https://www.osti.gov/home/ostiblog">social platform for DOE scientific software</a>.
-             DOE Code will connect to repositories on GitHub, Bitbucket, and others, but will also provide a place to host code for users that are unable to use other hosting services.</p>
+            <p>DOE Code will provide an open source, <a href="https://www.osti.gov/home/ostiblog">social platform for DOE scientific software</a>.  DOE Code will connect to repositories
+             on GitHub, Bitbucket, and others, but will also provide a place to host code for users that are unable to use other hosting services.  Since DOE Code
+             is itself an open source product, other institutions will be able to download and deploy it for their own purposes too.</p>
             
-            <p>To provide a new, modern way of interacting, DOE Code will not only provide the ability to link to references (papers, datasets), but also to other documents,
-             manuals, examples, charts, forums, etc., in one place.</p>
+            <p>To provide a new, modern way of interacting, DOE Code will not only provide the ability to link to references (papers, datasets), but also to other
+             documents, manuals, examples, charts, forums, etc., in one place. All of this scientific and technical information will be linked to scientific software,
+             whether it be software for modeling and simulation, data analytics, or instrument control.</p>
             
-            <p>DOE Code will contain three primary types of scientific software code: 
-              <ul>
-                <li>modeling and simulation,</li>
-                <li>data analysis and visualization, and</li>
-                <li>control code for instruments.</li>
-              </ul>
-            </p>
+            <p>The current software center, <a href="http://www.osti.gov/moved/estsc/">ESTSC</a>, contains over 3,500 distinct pieces of software resulting from DOE R&D, as well as selected software from the
+             Nuclear Energy Agency of the Organization for Economic Cooperation and Development.  ESTSC is the centralized DOE software management portal.  The
+             ESTSC portal provides access to software packages, including source code, executable object code, and the minimum support documentation (e.g.,
+             software user guide or manual) needed to use the software or to modify the software to support subsequent development efforts.</p>
             
-            <p>The current software center, ESTSC, contains over 3,500 distinct pieces of software resulting from DOE R&D, as well as selected software from the
-             Nuclear Energy Agency of the Organization for Economic Cooperation and Development.  ESTSC is the centralized DOE software management portal.  This
-             portal provides access to software packages, including source code, executable object code, and the minimum support documentation (e.g., software
-             user guide or manual) needed to use the software or to modify the software to support subsequent development efforts.</p>
-            
-            <p>ESTSC and DOE Code are managed and operated by DOE OSTI. </p>
+            <p>ESTSC and DOE Code are managed and operated by DOE OSTI.</p>
           </div>
         </div>
         <!-- /mid row -->
-        
-        <!-- footer --> 
-        <div id="footer-wrapper">
-          <div class="footer-content">
-            <div id="footerOSTI" class="fp">
-
-            </div>
-          </div>
-        </div>
-        <!-- /footer --> 
           
         </div>
       </div>
@@ -105,7 +87,81 @@
     <!-- end content -->
 
     <div class="push_top"></div>
-
+    
+    <footer>        
+    	<div class="footer-pre">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6">
+    				<a href="mailto:OSTIWebmaster@osti.gov"><i class="fa fa-comment-o" aria-hidden="true"></i> Have feedback or questions? Let us know!</a>
+    			</div>
+    			<div class="col-md-6 text-right">
+    				<a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to top</a>
+    			</div>
+    		</div>
+    	</div>
+    	</div>
+    
+    	<div class="footer-main" style="padding-top:15px; padding-bottom:5px;">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12 text-center">
+    				<div class="footer-main-logo">
+    					<img src="http://www.osti.gov/home/sites/www.osti.gov.home/files/images/DOE_SC_OSTI_white43.png" alt="DOE OSTI Banner" usemap="my_image_map" border="0">
+      				<map name="my_image_map">
+      				  <area alt="U.S. Department of Energy" href="http://energy.gov" coords="1,1,92,45" shape="rect">
+      				  <area alt="Office of Science" href="http://science.energy.gov" coords="92,2,204,41" shape="rect">
+      				  <area alt="Office of Scientific and Technical Information" href="https://www.osti.gov/home" coords="203,3,318,45" shape="rect">
+      				</map>              
+    				</div>
+    				<div class="text-center" style="margin-top:3px;">
+    					<a href="https://www.osti.gov/home/disclaimer.shtml">Website Policies <span class="hidden-xs">/ Important Links</span></a> <span class="footer-sep">•</span>
+    					<a href="https://www.osti.gov/home/contact.html">Contact Us</a>				
+    				</div>
+    			</div>
+    		</div>
+    			
+    		<div class="row" style="margin-top: 15px;">
+    			<div class="col-xs-12">
+    				<div align="center">
+    					<button class="footer-chevron collapsed" alt="Display additional footer links" data-toggle="collapse" data-target="#footer-tray" aria-expanded="false">
+    					</button>
+    				</div>
+    			</div>
+    		</div>
+    			
+    	</div>
+    	</div>
+    
+    	<div class="footer-tray collapse" id="footer-tray" aria-expanded="false" style="height: 2px;">
+      	<div class="container" style="padding-top:20px;padding-bottom:20px;">
+      		<div class="row">
+            <div class="col-md-4 col-md-offset-2 text-left footer-links-l">
+      				<ul>
+      					<li class="nav-header"><span class="glyphicon glyphicon-menu-right" style="color:#ccc;" aria-hidden="true"></span> About DOE / OSTI:</li>
+      					<li><a href="http://www.osti.gov/home/mission.html" target="_blank">Mission <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/home/doecommunity.html" target="_blank">DOE STI Program <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/home/document/osti-organization-chart" target="_blank">Organization Chart <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/home/alliances" target="_blank">Alliances <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/home/history.html" target="_blank">History <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      				</ul>			
+      			</div>
+      			<div class="col-md-4 col-md-offset-2 text-left footer-links-r">
+      				<ul>
+      					<li class="nav-header"><span class="glyphicon glyphicon-menu-right" style="color:#ccc;" aria-hidden="true"></span> DOE Science Resources:</li>
+                <li><a href="http://www.osti.gov/scitech/" target="_blank">DOE SciTech<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/pages/" target="_blank">DOE PAGES <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/dataexplorer/" target="_blank">DOE Data Explorer <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.osti.gov/home/collections/" target="_blank">More DOE Collections » <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li class="nav-header"><span class="glyphicon glyphicon-menu-right" style="color:#ccc;" aria-hidden="true"></span> U.S. / Global Science Resources:</li>
+      					<li><a href="http://www.science.gov" target="_blank">Science.gov <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      					<li><a href="http://www.worldwidescience.org" target="_blank">WorldWideScience.org <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      				</ul>			
+      			</div>          
+      		</div>
+      	</div>
+    	</div>			
+    </footer>                    
 
     <!-- scripts, load at the end for speed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
