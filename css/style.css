@@ -4,20 +4,21 @@ html {
     padding:0;
 }
 
-html {
-}
 body {
-    overflow-y: scroll;
-    background: #04325D;
-    background-color: white;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04325D', endColorstr='#ffffff',GradientType=0 );
-    background-image: -ms-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
-    background-image: -moz-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
-    background-image: -o-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000E1C), color-stop(0.5, #245583), color-stop(1, white));
-    background-image: -webkit-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
-    background-image: linear-gradient(to bottom, #000E1C 0%, #245583 50%, white 100%);
-    background-repeat: no-repeat;
+  overflow-y: scroll;
+  background: #04325D;
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04325D', endColorstr='#ffffff',GradientType=0 );
+  background-image: -ms-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
+  background-image: -moz-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
+  background-image: -o-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000E1C), color-stop(0.5, #245583), color-stop(1, white));
+  background-image: -webkit-linear-gradient(top, #000E1C 0%, #245583 50%, white 100%);
+  background-image: linear-gradient(to bottom, #000E1C 0%, #245583 50%, white 100%);
+  background-repeat: no-repeat;
+  padding-bottom: 175px;
+	position: relative;
+	min-height: 100%;     
 }
 .body-disclaimer h3 {
     font-size: 17.5px;	
@@ -1674,4 +1675,127 @@ table#show_result_type_detail_table.hide9 .col9 { display: none; }
 
 .padblock{
   padding: 0 35px;
+}
+
+/* --- footer --- */
+footer {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+}
+footer a {
+	color:#fff !important;
+}
+footer a:hover, footer a:active, footer a:focus {
+	color:#fff;
+}
+footer .footer-pre {
+	background-color: #335F7D;
+	border-bottom:2px solid #447744;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #FFF;
+}
+footer .footer-main {
+	background-color: #113E5B;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+}
+footer .footer-main ul, footer .footer-tray ul {
+	padding-left:0px;
+    display: inline-block;
+    text-align: left;
+}
+footer .footer-main ul li, footer .footer-tray ul li {
+	list-style-type:none;
+	padding-left:15px;
+}
+footer .footer-main ul li.nav-header, footer .footer-tray ul li.nav-header {
+	padding-left:0;
+	text-shadow:none;
+	font-weight:normal;
+	color:#aaa;
+}
+footer .footer-tray {
+	background-color: #335F7D;
+	box-shadow: inset 0 7px 19px -7px rgba(0,0,0,0.3);
+	border-top: 2px solid #447744;
+}  
+button.footer-chevron {
+	background: none; 
+	border: none; 
+	outline:0; 
+	height:27px; 
+	width:69px; 
+	background-image:url(http://www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_upArrow.png);
+}
+button.footer-chevron.collapsed {
+	background: none; 
+	border: none; 
+	outline:0; 
+	height:27px; 
+	width:69px; 
+	background-image:url(http://www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_downArrow.png);
+}
+span.footer-sep {
+	 color:#fff;
+	 padding-left:5px;
+	 padding-right:5px;
+	 font-weight:bold;
+}
+footer i.fa-external-link {
+	font-size:70%;
+	padding-left:3px;
+}
+
+.footer-content {
+    padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+.footer-content-center {
+    line-height:31px;
+}
+#footerOSTI {
+    padding-top: 6px;
+    border-top: 1px #CCC solid;
+    padding-bottom: 0px;
+    text-align: center;
+    /* min-width: 740px; */
+}
+#footerOSTI img {
+    vertical-align: middle;
+    border: 0;
+}
+#footerOSTI.fp {
+    border-top: 0px;
+}
+#footerOSTI div.row {
+    margin-top: 14px;
+}
+#footerOSTI ul {
+    margin-top: 14px;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 0;
+    padding-left: 0px;
+}
+#footerOSTI li {
+    color: #666;
+    display: inline;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.footer-extlink {
+    padding: 8px; /* consitent with breadcrumb, top */
+	padding-bottom: 0px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    background-color: whiteSmoke;
+	background: #f5f5f5; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5f5f5 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f5f5f5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f5f5f5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
