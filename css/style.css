@@ -18,8 +18,14 @@ body {
   background-repeat: no-repeat;
   padding-bottom: 175px;
 	position: relative;
-	min-height: 100%;     
+	min-height: 100%;
+  font-size: 16px;   
 }
+
+a{
+  font-weight: 600;
+}
+
 .body-disclaimer h3 {
     font-size: 17.5px;	
     font-weight: normal;
@@ -27,9 +33,7 @@ body {
 .body-disclaimer h4 {
     font-size: 14px;	
 }
-a {
-    color:#1D61A2;
-}
+
 .fp_search a:active, .fp_search a:focus, input#searchQuery:active, input#searchQuery:focus {
     outline: 0 none;
 }
