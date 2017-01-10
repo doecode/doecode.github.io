@@ -1,3 +1,30 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @mshensley
+
+14
+2
+
+    3
+
+doecode/doecode.github.io
+Code
+Issues 2
+Pull requests 0
+Projects 0
+Wiki
+Pulse
+Graphs
+doecode.github.io/css/style.css
+ff060ea on Nov 2, 2016
+@mshensley mshensley link style changes
+1846 lines (1723 sloc) 40 KB
 html {
     height:100%;
     margin:0;
@@ -1773,7 +1800,7 @@ button.footer-chevron {
 	outline:0; 
 	height:27px; 
 	width:69px; 
-	background-image:url(http://www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_upArrow.png);
+	background-image:url(//www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_upArrow.png);
 }
 button.footer-chevron.collapsed {
 	background: none; 
@@ -1781,7 +1808,7 @@ button.footer-chevron.collapsed {
 	outline:0; 
 	height:27px; 
 	width:69px; 
-	background-image:url(http://www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_downArrow.png);
+	background-image:url(//www.osti.gov/home/sites/www.osti.gov.home/files/images/footer_downArrow.png);
 }
 span.footer-sep {
 	 color:#fff;
@@ -1843,3 +1870,8 @@ footer i.fa-external-link {
 	background: linear-gradient(to bottom, #f5f5f5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
+
