@@ -181,6 +181,11 @@ ul.nav {
 
 #wrap {
     padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.main-content{
+    margin-bottom: 2em;	
 }
 
 #content {
