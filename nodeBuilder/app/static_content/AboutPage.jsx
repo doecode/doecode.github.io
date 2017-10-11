@@ -69,9 +69,8 @@ export default class About extends React.Component {
               <div className="col-xs-12 static-content center-text">
                 <br/>
                 <p className='left-text'>
-                  The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is developing a new DOE software services platform and search tool for DOE-funded code – DOE CODE. DOE CODE will replace OSTI’s old software center, the Energy Science and Technology Software Center (ESTSC). Since DOE CODE is still under development, if you need to submit, search, or order software, please visit the ESTSC site for instructions.
+                  The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is developing a new DOE software services platform and search tool for DOE-funded code – DOE CODE. DOE CODE will replace OSTI’s old software center, the Energy Science and Technology Software Center (ESTSC). Since DOE CODE is still under development, if you need to submit, search, or order software, please visit the <a href='https://www.osti.gov/moved/estsc/'>ESTSC</a> site for instructions.
                   <br/>
-                  <br/>Please note that the last ESTSC should be linked to&nbsp;<a href='https://www.osti.gov/moved/estsc/'>https://www.osti.gov/moved/estsc/</a>
                   <br/>
                 </p>
 
