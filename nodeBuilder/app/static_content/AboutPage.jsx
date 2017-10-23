@@ -108,68 +108,80 @@ export default class About extends React.Component {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="container containerStyle">
+          <div className="container-fluid containerStyle">
             <div className="row">
               <div className=""></div>
-              <div className="col-xs-12 static-content center-text">
+              <div className="col-xs-12 static-content no-col-padding-left no-col-padding-right">
                 <img title='DOE CODE Features' className="hidden-xs hidden-sm" src={this.state.currentImage} width="710" height="442" alt="DOE CODE Features" useMap="#featuremap"></img>
                 <map name="featuremap">
+                  {/*10:30*/}
                   <area title='Github' shape="circle" coords="232,107,32" alt="Github" onMouseOver={() => {
-                    this.changeImage(5) //10:30 }} onMouseOut={() => {
+                    this.changeImage(5)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*9 o clock*/}
                   <area title='Social Code' shape="circle" coords="179,241,32" alt="Social Code" onMouseOver={() => {
-                    this.changeImage(6) //9 o clock }} onMouseOut={() => {
+                    this.changeImage(6)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*7:30*/}
                   <area title='Catalog' shape="circle" coords="233,362,32" alt="Catalog" onMouseOver={() => {
-                    this.changeImage(3) //7:30 }} onMouseOut={() => {
+                    this.changeImage(3)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*4:30*/}
                   <area title='Repository' shape="circle" coords="481,365,32" alt="Repository" onMouseOver={() => {
-                    this.changeImage(2) //4:30 }} onMouseOut={() => {
+                    this.changeImage(2)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*3 o clock*/}
                   <area title='DOI' shape="circle" coords="533,239,32" alt="DOI" onMouseOver={() => {
-                    this.changeImage(1) //3 o clock }} onMouseOut={() => {
+                    this.changeImage(1)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*1:30*/}
                   <area title='Easy' shape="circle" coords="481,112,32" alt="Easy" onMouseOver={() => {
-                    this.changeImage(7) //1:30 }} onMouseOut={() => {
+                    this.changeImage(7)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
-                  }}/>
+                  }}/> {/*12 o clock*/}
                   <area title='Policy' shape="circle" coords="355,55,32" alt="Policy" onMouseOver={() => {
-                    this.changeImage(4) //12 o clock }} onMouseOut={() => {
+                    this.changeImage(4)
+                  }} onMouseOut={() => {
                     this.changeImage(0)
                   }}/>
                 </map>
 
                 <h3 className="hidden-md hidden-lg featuresStyle">FEATURES</h3>
                 <p className="left-text hidden-md hidden-lg">
-                  <strong>DOI</strong>
-                  - DOE CODE issues digital object identifiers (DOIs) for software code so your software is more easily cited and discoverable. Allows for stronger connections between code, publications, data, and other forms of STI through citation in reference sections.</p>
-                <p className="left-text hidden-md hidden-lg">
                   <strong>CATALOG</strong>
                   - DOE Software Catalog.</p>
                 <p className="left-text hidden-md hidden-lg">
-                  <strong>BEST PRACTICES AND POLICY</strong>
-                  - DOE CODE resources provide you information on best practices and policies for software.</p>
-                <p className="left-text hidden-md hidden-lg">
-                  <strong>SOCIAL CODING</strong>
-                  - DOE CODE seamlessly interfaces with common development platforms to make DOE-funded software and code more easily submitted, discoverable, and citable.</p>
+                  <strong>SOCIAL CODE</strong>
+                  - DOE CODE seamlessly interfaces with common development platforms (e.g., open web API).</p>
                 <p className="left-text hidden-md hidden-lg">
                   <strong>GITHUB</strong>
                   - DOE CODE is an open source product on GitHub that other institutions can download and deploy for their own purposes.</p>
                 <p className="left-text hidden-md hidden-lg">
+                  <strong>POLICY</strong>
+                  - DOE CODE resources provide you information on best practices and policies for software.</p>
+                <p className="left-text hidden-md hidden-lg">
                   <strong>EASY</strong>
-                  - DOE CODE is easy to use!</p>
-                <p className="hidden-xs hidden-sm">
-                  For more information about DOE CODE, reach out to
+                  - DOE CODE is easy to use and requires minimal metadata, often autopopulated.</p>
+                <p className="left-text hidden-md hidden-lg">
+                  <strong>DOI</strong>
+                  - DOE CODE issues digital object identifiers (DOIs) for code so software is more easily cited and discoverable. Allows for stronger connections between code, publications, and data through citation in reference sections.</p>
+                <p className="left-text hidden-md hidden-lg">
+                  <strong>REPOSITORY</strong>
+                  - DOE CODE offers public and private repository services in GitHub and GitLab.</p>
+                      <p className="hidden-xs hidden-sm">
+                  For more information about DOE CODE, reach out to&nbsp;
                   <a href="mailto:doecode@osti.gov">doecode@osti.gov</a>.</p>
               </div>
             </div>
 
           </div>
+          <br/>
         </div>
       </div>
     );
