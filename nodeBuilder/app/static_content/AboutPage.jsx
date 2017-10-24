@@ -69,7 +69,7 @@ export default class About extends React.Component {
               <div className="col-xs-12 static-content center-text">
                 <br/>
                 <p className='left-text'>
-                  The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is developing a new DOE software services platform and search tool for DOE-funded code – DOE CODE. DOE CODE will replace OSTI’s old software center, the Energy Science and Technology Software Center (ESTSC). Since DOE CODE is still under development, if you need to submit, search, or order software, please visit the <a href='https://www.osti.gov/moved/estsc/'>ESTSC</a> site for instructions.
+                  The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI) is developing a new DOE software services platform and search tool for DOE-funded code – DOE CODE. DOE CODE will replace OSTI’s old software center, the Energy Science and Technology Software Center (ESTSC). Since DOE CODE is still under development, if you need to submit, search, or order software, please visit the&nbsp;<a href='https://www.osti.gov/moved/estsc/'>ESTSC</a>&nbsp;site for instructions.
                   <br/>
                   <br/>
                 </p>
@@ -155,7 +155,7 @@ export default class About extends React.Component {
                 <h3 className="hidden-md hidden-lg featuresStyle">FEATURES</h3>
                 <p className="left-text hidden-md hidden-lg">
                   <strong>CATALOG</strong>
-                  - DOE Software Catalog.</p>
+                  - DOE CODE is the DOE Software Catalog.</p>
                 <p className="left-text hidden-md hidden-lg">
                   <strong>SOCIAL CODE</strong>
                   - DOE CODE seamlessly interfaces with common development platforms (e.g., open web API).</p>
@@ -170,11 +170,11 @@ export default class About extends React.Component {
                   - DOE CODE is easy to use and requires minimal metadata, often autopopulated.</p>
                 <p className="left-text hidden-md hidden-lg">
                   <strong>DOI</strong>
-                  - DOE CODE issues digital object identifiers (DOIs) for code so software is more easily cited and discoverable. Allows for stronger connections between code, publications, and data through citation in reference sections.</p>
+                  - DOE CODE issues digital object identifiers (DOIs) for code so software is more easily cited and discoverable. This allows for stronger connections between code, publications, and data through citation in reference sections.</p>
                 <p className="left-text hidden-md hidden-lg">
                   <strong>REPOSITORY</strong>
-                  - DOE CODE offers public and private repository services in GitHub and GitLab.</p>
-                      <p className="hidden-xs hidden-sm">
+                  - DOE CODE offers public and private repository services in GitHub and Gitlab.</p>
+                <p className="hidden-xs hidden-sm">
                   For more information about DOE CODE, reach out to&nbsp;
                   <a href="mailto:doecode@osti.gov">doecode@osti.gov</a>.</p>
               </div>
